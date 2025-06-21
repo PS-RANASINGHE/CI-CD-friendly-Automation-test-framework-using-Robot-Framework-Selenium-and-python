@@ -1,5 +1,3 @@
-# CI-CD-friendly-Automation-test-framework-using-Robot-Framework-Selenium-and-python
-
 # Scheduled Email Automation using Python and Robot Framework
 
 ## 📌 Project Overview
