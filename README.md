@@ -18,11 +18,17 @@ This project is a lightweight automation system that **triggers an email-sending
 
 ## 🗂️ File Structure
 📦scheduled-email-automation
+
 ├── 📄 chk_time.py            # Python script that waits until a specific time and triggers Robot Framework execution
+
 ├── 🤖 SendGmail.robot        # Robot Framework test case that handles sending an email
+
 ├── 📄 output.xml             # Raw test execution result (Robot Framework default)
+
 ├── 📄 log.html               # Detailed test execution log with keyword-level debugging info
+
 ├── 📄 report.html            # High-level test summary report
+
 └── 📘 README.md              # Project documentation and usage guide
 
 ---
