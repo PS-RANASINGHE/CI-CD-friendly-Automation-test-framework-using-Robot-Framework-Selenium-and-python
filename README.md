@@ -90,3 +90,44 @@ pip install robotframework-seleniumlibrary
 ```bash
 python chk_time.py
 ```
+
+🔧 Automated Task Triggering System Using Python & Robot Framework
+
+More information available at - 
+
+I developed a lightweight automation tool that monitors system time and executes a Robot Framework script at a precise moment. The Python script continuously checks the local time, and when the scheduled time is reached, it triggers a .robot test case — in this instance, to send an automated email.
+
+💡 Technology Stack:
+
+Python for scheduling and process control (datetime, subprocess, time)
+
+Robot Framework for test execution and automation scripting
+
+✅ Core Features:
+
+- Scheduled task execution
+- Time-based event automation
+- Integration-ready structure for CI/CD pipelines
+
+💼 Real-World Use Cases in Industry:
+
+🔄 Nightly Batch Processing:
+Automate nightly data uploads, ETL jobs, or file transfers (e.g., uploading logs to S3 or triggering Azure Data Factory pipelines).
+
+📊 Automated Reporting:
+Schedule performance or analytics reports to be sent to stakeholders at fixed intervals (e.g., daily SLA reports or security logs).
+
+🔔 Compliance & Alerting:
+Trigger compliance-related notifications (like backup verification reports or audit logs) exactly at regulation-defined times.
+
+📧 Email-Based System Monitoring:
+Send automated health-check summaries or alert emails if a system status is checked and fails at a scheduled time.
+
+🎯 CI/CD Pipeline Initiation:
+Kick off integration or regression test suites automatically at specified times, especially for systems without webhook triggers.
+
+🛡️ Security Automation:
+Launch vulnerability scans or trigger patch verification processes during low-traffic hours using tools integrated with Robot Framework.
+
+🕒 Time-Based Access Control:
+Temporarily enable/disable systems or user access privileges based on predefined business hours or maintenance windows
